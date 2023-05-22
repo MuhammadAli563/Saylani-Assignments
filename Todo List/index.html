@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="">
+
+
+
+    <div class="container w-50 mt-5">
+    <header class="text-center bg-dark p-3">
+        <h1 class="text-white">TODO LIST</h1>
+    </header>
+
+    <section class="d-flex align-content-center mt-3 rounded-3">
+        <input id="todoInput" type="text" class=" form-control border-black border-opacity-25  rounded-3" placeholder="Enter Here">
+        <button class="btn btn-success rounded-5 " onclick="addTodo()">
+            ADD
+        </button> 
+    </section> 
+
+    <ul id="ulParent" class="list-group mt-4 rounded-3">
+        <!-- <li class="list-group-item d-flex align-items-center justify-content-between rounded-4 bg-body-secondary ">An item
+            <div>
+                <button class="btn btn-dark rounded-5">EDIT</button>
+                <button class="btn btn-danger rounded-5">DEL</button>
+    
+            </div>
+        </li> -->
+
+    
+       
+    </ul>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h1 class="text-center mb-4">Todo List</h1>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="todo-input" class="form-control" placeholder="Add a new todo">
+                        </div>
+                        <button type="submit" id="add-btn" class="btn btn-primary btn-block">Add Todo</button>
+                    </form>
+                    <ul class="list-group mt-4" id="todo-list"></ul>
+                </div>
+            </div>
+        </div>
+    
+      
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html> -->
