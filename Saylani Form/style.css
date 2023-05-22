@@ -1,0 +1,153 @@
+.header {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#city {
+
+    width: 500px;
+    height: 60px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+
+#course {
+    width: 500px;
+    height: 60px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 0px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#name {
+    width: 480px;
+    height:38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#fname {
+    width: 480px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#email {
+    width: 480px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#phone {
+    width: 480px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#cnic {
+    width: 480px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#fcnic {
+    width: 480px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#date {
+    width: 480px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#gender {
+    width: 500px;
+    height: 60px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#adress {
+    width: 1005px;
+    height: 38px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#qualification {
+    width: 1025px;
+    height: 60px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+#laptop {
+    width: 1025px;
+    height: 60px;
+    padding: 12px 10px;
+    margin: 30px 20px 0px 0px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+.foot
+{
+    padding:12px 100px;
+    height: 60px;
+    width: 1025px;
+    margin: 30px 300px 0px 0px;
+    background:#00ad2d;
+    border:1px solid #00ad2d;   
+    border-radius:2px;
+    text-align:center;
+    cursor:pointer;
+  }
+  
+#input{
+    height: 40px;
+    width: 200px;
+    margin-left: 400px;
+}

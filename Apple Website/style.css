@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.scroll1 {
+    width: 100%;
+    height: 540px;
+    text-align: center;
+}
+
+#fitness {
+    margin-top: 190px;
+}
+
+#div1h1 {
+    font-size: 75px;
+    margin-top: 20px;
+}
+
+#div1btn1 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+#div1btn2 {
+    background-color: #9ef52e;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.scroll2 {
+    width: 100%;
+}
+
+#iphone2 {
+    padding-left: 15%;
+}
+
+.scroll3 {
+    width: 100%;
+    height: 500px;
+}
+
+#div3para1 {
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 55%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#circleparadiv {
+    width: 290px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#div3para2 {
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: -45px;
+    color: grey;
+}
+
+#peopleparadiv {
+    width: 290px;
+    margin-left: 700px;
+    margin-top: -40px;
+}
+
+#div3para3 {
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: -50px;
+    color: grey;
+}
+.scroll4{
+    width: 100%;
+    height: 520px;
+    display: flex;
+}
+
+.box1{
+    width: 49%;
+}
+#div4img1{
+    width: 100%;
+    height: 600px;
+}
+.box2{
+    width: 49%;
+}
+#div4img2{
+    width: 100%;
+    height: 600px;
+}
